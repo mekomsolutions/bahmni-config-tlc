@@ -87,7 +87,7 @@
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type":"treatment",
                 "displayOrder":4,
-                "dashboardConfig":{  
+                "dashboardConfig":{
                     "showFlowSheet":true,
                     "showListView":true,
                     "showRoute":true,
@@ -96,7 +96,7 @@
                     "showOtherActive":true,
                     "showDetailsButton":true
                 },
-                "expandedViewConfig":{  
+                "expandedViewConfig":{
                     "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                     "showFlowSheet":true,
                     "showListView":true,
@@ -180,7 +180,7 @@
             "HistoryAndExamination":{
                 "type":"historyAndExamination",
                 "isObservation":true,
-                "displayType":"Full-Page",
+                "displayType":"Half-Page",
                 "dashboardConfig":{
                     "showGroupDateTime":false,
                     "conceptNames":[
@@ -198,7 +198,7 @@
             "drugOther":{
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type":"drugOrderDetails",
-                "displayType":"Full-Page",
+                "displayType":"Half-Page",
                 "showDetailsButton":true,
                 "displayOrder":24,
                 "dashboardConfig":{
