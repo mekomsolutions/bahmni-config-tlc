@@ -48,7 +48,7 @@
             "familyNameLocal"
           ],
           "additionalPatientIdentifiers": [
-              "National ID"
+            "National ID"
           ],
           "preferredIdentifier": "Id_Number"
       },
