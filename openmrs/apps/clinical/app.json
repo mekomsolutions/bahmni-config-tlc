@@ -43,6 +43,9 @@
           "programAttributes": [
           ],
           "personAttributes": [
+            "givenNameLocal",
+            "middleNameLocal",
+            "familyNameLocal"
           ],
           "additionalPatientIdentifiers": [
               "National ID"
