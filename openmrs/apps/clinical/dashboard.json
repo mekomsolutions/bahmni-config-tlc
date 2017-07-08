@@ -8,9 +8,9 @@
                 "translationKey":"DASHBOARD_TITLE_PATIENT_INFORMATION_KEY",
                 "type":"patientInformation",
                 "displayOrder":0,
-                "ageLimit":100,
-                "patientAttributes":[  
-
+                "ageLimit":12,
+                "showDOB":false,
+                "patientAttributes":[
                 ],
                 "addressFields":[  
                     "address1",
