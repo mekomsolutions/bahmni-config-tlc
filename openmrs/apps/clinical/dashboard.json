@@ -8,9 +8,12 @@
                 "translationKey":"DASHBOARD_TITLE_PATIENT_INFORMATION_KEY",
                 "type":"patientInformation",
                 "displayOrder":0,
-                "ageLimit":100,
-                "patientAttributes":[  
-
+                "ageLimit":12,
+                "patientAttributes":[
+                    "givenNameLocal",
+                    "middleNameLocal",
+                    "familyNameLocal",
+                    "impl.guardianName"
                 ],
                 "addressFields":[  
                     "address1",
@@ -76,14 +79,14 @@
                 "type":"historyAndExamination",
                 "isObservation":true,
                 "displayType":"Half-Page",
-                "dashboardConfig":{  
+                "dashboardConfig":{
                     "showGroupDateTime":false,
                     "conceptNames":[
                         "Cambodia_Allergies"
                     ]
                 },
                 "displayOrder":6,
-                "title":"Allergies"
+                "translationKey":"DASHBOARD_TITLE_ALLERGIES_KEY"
             },
             "diagnosis":{  
                 "translationKey":"DASHBOARD_TITLE_DIAGNOSIS_KEY",
@@ -235,33 +238,46 @@
                 }
             },
             "growthChart":{
-                "type":"observationGraph",
                 "title":"Growth Chart",
-                "config":{
-                    "yAxisConcepts":[
-                        "Weight"
+                "translationKey":"DASHBOARD_GROWTH_CHART_KEY",
+                "type": "observationGraph",
+                "showDetailsButton":true,
+                "config": {
+                    "yAxisConcepts": [
+                    "Weight"
                     ],
-                    "referenceData":"growthChartReference.csv",
-                    "numberOfVisits":20
+                    "referenceData": "growthChartReference.csv",
+                    "numberOfVisits": 20
                 },
-                "displayOrder":1
+                "displayOrder": 1
             },
-            "BP":{
+            "dentalExam": {
+                "type": "forms",
+                "displayOrder": 21,
+                "dashboardConfig": {
+                    "maximumNoOfVisits": 10
+                },
+            "formGroup": [ "Cambodia_Dental Exam Form"],
+            "translationKey": "DASHBOARD_TITLE_DENTAL_EXAM_KEY"
+            },
+            "bpPulse":{
+                "title":"BP/Pulse",
                 "type":"observationGraph",
-                "title":"BP",
                 "config":{
                     "yAxisConcepts":[
                         "Cambodia_Systolic Blood Pressure",
-                        "Cambodia_Diastolic Blood Pressure"
+                        "Cambodia_Diastolic Blood Pressure",
+                        "Cambodia_Pulse"
                     ],
                     "xAxisConcept":"observationDateTime",
                     "numberOfVisits":10
                 },
-                "displayOrder":2
+                "displayOrder":2,
+                "translationKey": "DASHBOARD_TITLE_BP_PULSE_KEY"
             },
-            "weight/BMI":{
-                "type":"observationGraph",
+            "weightBMI":{
                 "title":"Weight/BMI",
+                "type":"observationGraph",
                 "config":{
                     "yAxisConcepts":[
                         "Weight",
@@ -270,19 +286,8 @@
                     "xAxisConcept":"observationDateTime",
                     "numberOfVisits":10
                 },
-                "displayOrder":3
-            },
-            "observationGraph":{
-                "type":"observationGraph",
-                "title":"Pulse",
-                "config":{
-                    "yAxisConcepts":[
-                        "Cambodia_Pulse"
-                    ],
-                    "xAxisConcept":"observationDateTime",
-                    "numberOfVisits":10
-                },
-                "displayOrder":5
+                "displayOrder":3,
+                "translationKey": "DASHBOARD_TITLE_WEIGHT_BMI_KEY"
             }
 
         }
