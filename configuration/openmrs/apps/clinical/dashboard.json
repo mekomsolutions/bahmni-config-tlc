@@ -324,17 +324,35 @@
                         "Cambodia_Temperature",
                         "Cambodia_Respiratory Rate",
                         "Cambodia_Oxygen Saturation",
-                        "Cambodia_Capillary Refill Time","Weight", "BMI Data", "BMI Status Data"
+                        "Cambodia_Capillary Refill Time",
+                        "BMI Data", 
+                        "BMI Status Data"
                     ]
                 },
                 "expandedViewConfig":{
                     "conceptNames":[
-                        "Cambodia_Vital Signs Extended Form","Weight", "BMI Data", "BMI Status Data"
+                        "Cambodia_Pulse",
+                        "Cambodia_Systolic Blood Pressure",
+                        "Cambodia_Diastolic Blood Pressure",
+                        "Cambodia_Temperature",
+                        "Cambodia_Respiratory Rate",
+                        "Cambodia_Oxygen Saturation",
+                        "Cambodia_Capillary Refill Time",
+                        "BMI Data", 
+                        "BMI Status Data"
                     ],
                     "pivotTable":{
                         "groupBy":"encounters",
                         "obsConcepts":[
-                            "Cambodia_Vital Signs Extended Form","Weight", "BMI Data", "BMI Status Data"
+                            "Cambodia_Pulse",
+                            "Cambodia_Systolic Blood Pressure",
+                            "Cambodia_Diastolic Blood Pressure",
+                            "Cambodia_Temperature",
+                            "Cambodia_Respiratory Rate",
+                            "Cambodia_Oxygen Saturation",
+                            "Cambodia_Capillary Refill Time",
+                            "BMI Data", 
+                            "BMI Status Data"
                         ],
                         "drugConcepts":[
 
