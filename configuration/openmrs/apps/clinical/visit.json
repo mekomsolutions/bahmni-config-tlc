@@ -7,7 +7,7 @@
             "header": "Visit",
             "logo": "../images/bahmniLogo.png"
         },
-        "defaultSections": true,
+        "defaultSections": false,
         "sections": {
             "pivotTable":{
                 "type": "pivotTable",
@@ -23,18 +23,12 @@
                         "Cambodia_Respiratory Rate Data",
                         "Cambodia_Oxygen Saturation Data",
                         "Cambodia_Capillary Refill Time Data",
+                        "BMI Data", 
+                        "BMI Status Data",
                         "Height",
                         "WEIGHT"
                     ],
                     "labConcepts": ""
-                }
-            },
-            "pacsOrders":{
-                "type":"pacsOrders",
-                "displayOrder":4,
-                "translationKey": "PACS_ORDERS_VISIT_PAGE_KEY",
-                "config":{
-                    "orderType": "Radiology Order"
                 }
             },
             "conditions": {
@@ -58,7 +52,65 @@
                     "scope": "latest",
                     "numberOfVisits": "1"
                 }
+            },
+                        "diagnoses":{
+                "type": "diagnosis",
+                "displayOrder": 4,
+                "config": {
+                    "translationKey" : "DISCHARGE_SUMMARY_DIAGNOSIS_KEY",
+                    "showCertainty": false,
+                    "showOrder": false,
+                    "showDetailsButton": true
+                }
+            },
+            "labInvestigations":{
+                "type": "investigationResult",
+                "displayOrder": 6,
+                "config": {
+                    "translationKey":"LAB_INVESTIGATION",
+                    "showChart": true,
+                    "showTable": false,
+                    "showNormalLabResults": true,
+                    "showCommentsExpanded": true,
+                    "showAccessionNotes": true,
+                    "numberOfVisits": 10,
+                    "initialAccessionCount": 1,
+                    "latestAccessionCount": 1
+                }
+            },
+            "Treatments": {
+                "type": "treatment",
+                "displayOrder": 6,
+                "config": {
+                    "translationKey": "VISIT_TITLE_TREATMENTS_KEY",
+                    "showFlowSheet": true,
+                    "showListView": true,
+                    "showOtherActive": false,
+                    "showDetailsButton": true,
+                    "showRoute": true,
+                    "showDrugForm": true,
+                    "showProvider":false
+                }
+            },
+            "Radiology Orders": {
+                "type": "order",
+                "displayOrder": 0,
+                "translationKey": "Radiology Orders",
+                "config": {
+                    "translationKey": "Radiology Orders",
+                    "name": "ordersControl",
+                    "orderType": "Radiology Order",
+                    "conceptNames": [
+                        "Summary"
+                    ]
+                }
             }
+        }
+    },
+    "orders":{
+        "translationKey": " ",
+        "defaultSections": true,
+        "sections": {
         }
 
     }
