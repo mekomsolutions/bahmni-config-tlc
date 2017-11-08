@@ -114,7 +114,6 @@
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
-      "default": true,
       "conceptName": "Second Vitals",
       "showIf": [
         "var visitTypes = [];",
