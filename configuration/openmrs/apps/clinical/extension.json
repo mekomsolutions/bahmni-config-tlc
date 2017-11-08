@@ -114,6 +114,7 @@
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
+      "default": true,
       "conceptName": "Second Vitals",
       "showIf": [
         "var visitTypes = [];",
@@ -130,7 +131,7 @@
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
-      "default": true,
+      "default": false,
       "conceptName": "Cambodia_Chief Complaint Form"
     },
     "order": 10,
@@ -141,7 +142,7 @@
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
-      "default": true,
+      "default": false,
       "conceptName": "Cambodia_Past Medical History Form"
     },
     "order": 20,
@@ -152,18 +153,29 @@
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
-      "default": true,
+      "default": false,
       "conceptName": "Cambodia_Review of Systems Form"
     },
     "order": 30,
     "requiredPrivilege": "app:clinical"
   },
+  "bahmniClinicalConceptSetGroupObservationsVisitForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.visitForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_Visit Form"
+    },
+    "order": 1,
+    "requiredPrivilege": "app:clinical"
+  },  
   "bahmniClinicalConceptSetGroupObservationsPhysicalExamForm": {
     "id": "bahmni.clinical.conceptSetGroup.observations.physicalExamForm",
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
-      "default": true,
+      "default": false,
       "conceptName": "Cambodia_Physical Exam Form"
     },
     "order": 40,
