@@ -108,6 +108,18 @@
         "Cambodia_Skin Symptoms": {
             "multiSelect": true
         },
+        "Cambodia_PNC Problems During Delivery": {
+            "multiSelect": true
+        },
+        "Cambodia_Maternal Care": {
+            "multiSelect": true
+        },        
+        "Cambodia_Neonatal Care": {
+            "multiSelect": true
+        },        
+        "Cambodia_Counselling": {
+            "multiSelect": true
+        },
         "Cambodia_Skin Exam": {
             "required": true,
             "disableAddNotes": true
