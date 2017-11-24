@@ -108,6 +108,18 @@
         "Cambodia_Skin Symptoms": {
             "multiSelect": true
         },
+        "Cambodia_PNC Problems During Delivery": {
+            "multiSelect": true
+        },
+        "Cambodia_Maternal Care": {
+            "multiSelect": true
+        },        
+        "Cambodia_Neonatal Care": {
+            "multiSelect": true
+        },        
+        "Cambodia_Counselling": {
+            "multiSelect": true
+        },
         "Cambodia_Skin Exam": {
             "required": true,
             "disableAddNotes": true
@@ -510,6 +522,33 @@
           "disableAddNotes": true
         },
         "Cambodia_Malaria Rapid Test" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_Date of Delivery" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_Newborn Sex" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_Newborn Weight" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_PNC Problems During Delivery" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_PNC First Visit" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_Maternal Care" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_Neonatal Care" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_Counselling" : {
+          "disableAddNotes": true
+        },
+        "Cambodia_PNC Next Appointment" : {
           "disableAddNotes": true
         },
         "defaults": {
