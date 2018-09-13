@@ -96,6 +96,14 @@
                 "hideAbnormalButton": false,
                 "disableAddNotes": true
             },
+            "Cambodia_Oxygen Saturation Data": {
+                "hideAbnormalButton": false,
+                "disableAddNotes": true
+            },
+            "Cambodia_Capillary Refill Time Data": {
+                "hideAbnormalButton": false,
+                "disableAddNotes": true
+            },
             "HEIGHT": {
                 "disableAddNotes": true
             },
