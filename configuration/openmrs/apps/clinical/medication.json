@@ -12,12 +12,33 @@
           "BID - 2X /day",
           "TID - 3X /day",
           "QID - 4X /day",
-          "STAT - Immediately",
-          "QD - 1X /ថ្ងៃ",
-          "BID - 2X /ថ្ងៃ",
-          "TID - 3X /ថ្ងៃ",
-          "QID - 4X /ថ្ងៃ",
-          "STAT - ភ្លាម"
+          "STAT - Immediately"
+        ],
+        "doseUnits": [
+          "Capsule(s)",
+          "Puff(s)",
+          "Unit(s)",
+          "Drop",
+          "ml",
+          "Tablet(s)",
+          "Teaspoon",
+          "Tablespoon",
+          "mg",
+          "IU"
+        ],
+        "routes": [
+          "PO - Oral",
+          "Tongue",
+          "Eye drop",
+          "NAS - Nasal (nose)",
+          "TOP - Topical (skin)",
+          "INH - Inhalation",
+          "SC - Subcutaneous (under skin)",
+          "PR - Per rectum",
+          "PV - Per vagina",
+          "ID - Intradermal",
+          "IV - Intravenous",
+          "IM - Intramuscular"
         ],
         "frequencyDefaultDurationUnitsMap": [
           {
